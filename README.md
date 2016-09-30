@@ -7,6 +7,7 @@ events as a series of logical objects along lines.
 This a fork of [the pulses macros by Mark White](https://bitbucket.org/mjwhite/pulses),
 which was [originally published in 2004](http://www.celos.net/comp/pulses/).
 
+Impoved gradient shapes have been added as per [Proper Gradients for Metapost Pulse Sequences](http://www.tinkertailorsoldiersponge.com/blog/2013/12/18/proper-gradients-for-metapost-pulse-sequences).
 
 ## Usage
 
@@ -30,6 +31,13 @@ this far down the page) you may notice that figure 2 has a physics
 error: the readout gradient starts during the excitation pulse.
 Fortunately somebody spotted that in the draft these came from.
 
+There is a write-up on the installation and basic use on [my blog](http://www.tinkertailorsoldiersponge.com/blog/2013/12/17/pulse-sequence-diagrams-using-metapost)
+
+## Examples
+Basic FLASH sequence using the original gradients:
+![alt tag](http://lh5.googleusercontent.com/-HnS9_Sbu2fw/UrCYazM9qtI/AAAAAAAAAzk/nNDmMc-wp1U/w1003-h881-no/flash.png)
+Spin Echo sequence with the improved gradients:
+![alt tag](http://lh6.googleusercontent.com/-pWAgfVprTUY/UrHUqtlcpSI/AAAAAAAAA0U/6kttxxCOI9s/w1140-h881-no/se_grads.png)
 ## Author
 
 Written by Mark White, mark [at] celos.net, in 2004.
