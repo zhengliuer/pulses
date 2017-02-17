@@ -49,7 +49,7 @@ with some examples and comments. In 2016 I released the same code
 under a clear 2-clause BSD licence here.
 
 The 2016 release (1.0) is identical apart from a few lines in the
-header comments referring to the licence.  
+header comments referring to the licence. Thir version (1.1) has improved gradient shapes.  
 
 ## Licence and contact
 
