@@ -14,7 +14,7 @@
 
 % output settings (comment out first two lines for TeX fonts)
 prologues:=2;		% EPS with Postscript fonts
-defaultfont:="rphvr";	% Use helvetica
+defaultfont:="phvr8r";	% Use helvetica
 linejoin := mitered;
 
 % default units and line width
@@ -27,6 +27,7 @@ rf=0;
 g0=-3u;
 g1=-5u;
 g2=-7u;
+adc=-9u;
 
 % shared paths
 path square, pulse, acq, arc;
