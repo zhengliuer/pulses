@@ -16,7 +16,7 @@ beginfig(0);
 
     startline(rf,"RF");
     xline(1);
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     xline(0.2);
     xacq(5);
     xline(1);
@@ -30,7 +30,7 @@ beginfig(1);
 
     startline(rf,"RF");
     xline(1);
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     ospan(-0.5,-1.8,4,"TE/2");
     xline(3);
     xpulse(1,1.6,"180");
@@ -50,7 +50,7 @@ beginfig(2);
 
     startline(rf,"RF");
     xline(1);
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     ospan(-0.5,-1.5,4,"TE");
     ospan(-0.5,-2,2,"TE/2");
     xline(2);
@@ -76,7 +76,7 @@ beginfig(3);
 
     startline(rf,"RF");
     xline(1);
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     xline(3);
 
     startline(g0+1u,"Gz");
@@ -100,7 +100,7 @@ beginfig(4);
 
     startline(rf,"RF");
     xline(1);
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     ospan(-0.5,-1.8,4,"TE/2");
     xline(3);
     xpulse(1,1.6,"180");
@@ -132,7 +132,7 @@ beginfig(5);
     startline(rf,"RF");
     xline(1);
     ospan(0.5,-1.8,4,"TE/2");
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     xline(3);
     ospan(0.5,-1.8,4,"TE/2");
     xpulse(1,1.6,"180");
@@ -158,7 +158,7 @@ beginfig(6);
     startline(rf,"RF");
     xline(1);
     ospan(0.5,-1.8,4,"TE/2");
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     xline(3);
     ospan(0.5,-1.8,4,"TE/2");
     xpulse(1,1.6,"180");
@@ -200,7 +200,7 @@ beginfig(7);
     startline(rf,"RF");
     xline(1);
     ospan(0.5,-1.5,3,"TE");
-    xpulse(1,1,"a" infont "Symbol");
+    xpulse(1,1,"a" infont "cmr10");
     xline(1.2);
     ospan(1.3,-1.5,3,"TE");
     oecho(1.3);
@@ -239,7 +239,7 @@ beginfig(7);
 
 endfig;
 
-% Echo symbol for key
+% Echo Symbol for key
 beginfig(100);
     initf;
     oecho(0);
